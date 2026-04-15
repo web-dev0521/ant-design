@@ -75,12 +75,10 @@ const genSelectInputVariantStyle = (
       {
         [`&${componentCls}-status-error`]: genSelectInputVariableStyle(token, {
           ...colors,
-          color: errorColors.color || token.colorError,
           ...errorColors,
         }),
         [`&${componentCls}-status-warning`]: genSelectInputVariableStyle(token, {
           ...colors,
-          color: warningColors.color || token.colorWarning,
           ...warningColors,
         }),
       },
